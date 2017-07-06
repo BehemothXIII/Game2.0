@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 	public Transform playerTransform;
+
 	// Update is called once per frame
 	void Update () {
-		if (playerTransform.position.y > Camera.main.transform.position.y) {
+		if (playerTransform.position.y > Camera.main.transform.position.y ) {
 			Camera.main.transform.position = Camera.main.transform.position.WithY (playerTransform.position.y);
 		}
 	}
