@@ -11,7 +11,7 @@ public class BananaController : MonoBehaviour {
 	public static float score;
 
 	void Start(){
-		
+		score = 0;
 	}
 	private void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "Player") {
