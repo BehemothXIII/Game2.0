@@ -1,0 +1,182 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 750M (ID=0xfe4)
+    Vendor:   NVIDIA
+    VRAM:     4066 MB
+    Driver:   22.21.13.8165
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.091 seconds
+Platform assembly: D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Program Files (x86)\SmartGit\bin\Game2.0\Time Bug\Play_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.771039 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2b34 -> priority: 1 
+  Thread -> id: af8 -> priority: 1 
+  Thread -> id: 3e5c -> priority: 1 
+  Thread -> id: 3cf4 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.215431 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 2.099346 ms (FindLiveObjects: 0.379327 ms CreateObjectMapping: 0.103919 ms MarkObjects: 1.351381 ms  DeleteObjects: 0.263006 ms)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.700834 ms
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 485.
+Total: 1.883809 ms (FindLiveObjects: 0.517459 ms CreateObjectMapping: 0.065003 ms MarkObjects: 1.002417 ms  DeleteObjects: 0.295935 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.168198 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 2.332844 ms (FindLiveObjects: 0.484102 ms CreateObjectMapping: 0.105202 ms MarkObjects: 1.460005 ms  DeleteObjects: 0.280967 ms)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.012646 ms
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 485.
+Total: 2.403407 ms (FindLiveObjects: 0.996430 ms CreateObjectMapping: 0.060299 ms MarkObjects: 1.058012 ms  DeleteObjects: 0.286527 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.593005 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 2.421796 ms (FindLiveObjects: 0.483247 ms CreateObjectMapping: 0.121025 ms MarkObjects: 1.472407 ms  DeleteObjects: 0.341694 ms)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.520845 ms
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 485.
+Total: 1.291510 ms (FindLiveObjects: 0.090662 ms CreateObjectMapping: 0.055594 ms MarkObjects: 0.883530 ms  DeleteObjects: 0.259585 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.529713 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 2.394854 ms (FindLiveObjects: 0.453739 ms CreateObjectMapping: 0.105202 ms MarkObjects: 1.530568 ms  DeleteObjects: 0.303633 ms)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.270241 ms
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 485.
+Total: 2.301625 ms (FindLiveObjects: 1.112324 ms CreateObjectMapping: 0.062437 ms MarkObjects: 0.881819 ms  DeleteObjects: 0.241196 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.207690 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 2.421796 ms (FindLiveObjects: 0.469562 ms CreateObjectMapping: 0.112472 ms MarkObjects: 1.523298 ms  DeleteObjects: 0.315179 ms)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Animator.GotoState: State could not be found
+ 
+(Filename:  Line: 1241)
+
+Invalid Layer Index '-1'
+ 
+(Filename:  Line: 810)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.526405 ms
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 485.
+Total: 2.112603 ms (FindLiveObjects: 0.771057 ms CreateObjectMapping: 0.130861 ms MarkObjects: 0.961790 ms  DeleteObjects: 0.247183 ms)
+

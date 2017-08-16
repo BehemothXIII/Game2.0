@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Player.cs">
+    <Files>
+      <File FileName="Assets\Script\Controller2D.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\PlatformController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\RaycastController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\StartSceneScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\SpikeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Player.cs" Line="149" Column="43" />
+      <File FileName="Assets\Script\Guard.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\GameManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
