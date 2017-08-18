@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public Vector2 wallJumpOff;
     public Vector2 wallLeap;
 
+	public bool facingRight;
+	public bool jump;
     public bool canDoubleJump;
     private bool isDoubleJumping = false;
 
@@ -31,6 +33,8 @@ public class Player : MonoBehaviour
 
     private Controller2D controller;
 	private BoxCollider2D b2d;
+	private Animator anim;
+	private SpriteRenderer sprite;
 
     private Vector2 directionalInput;
     private bool wallSliding;
@@ -38,8 +42,11 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+		facingRight = true;
         controller = GetComponent<Controller2D>();
 		b2d = GetComponent<BoxCollider2D> ();
+		anim = GetComponent<Animator> ();
+		sprite = GetComponent<SpriteRenderer>();
         gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
         minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
@@ -49,22 +56,31 @@ public class Player : MonoBehaviour
     {
         CalculateVelocity();
 //        HandleWallSliding();
-
-        controller.Move(velocity * Time.deltaTime, directionalInput);
+		controller.Move(velocity * Time.deltaTime, directionalInput);
 
         if (controller.collisions.above || controller.collisions.below)
         {
             velocity.y = 0f;
+			anim.SetBool ("jump", false);
         }
+
+
     }
 
     public void SetDirectionalInput(Vector2 input)
     {
         directionalInput = input;
+		if (directionalInput.x > 0 && !facingRight) {
+			Flip ();
+		} else if (directionalInput.x < 0 && facingRight) {
+			Flip ();
+		}
+		anim.SetFloat ("walk", Mathf.Abs(directionalInput.x));
     }
 
     public void OnJumpInputDown()
     {
+		anim.SetBool ("jump", true);	
         if (wallSliding)
         {
             if (wallDirX == directionalInput.x)
@@ -86,7 +102,7 @@ public class Player : MonoBehaviour
         }
         if (controller.collisions.below)
         {
-            velocity.y = maxJumpVelocity;
+			velocity.y = maxJumpVelocity;
             isDoubleJumping = false;
         }
         if (canDoubleJump && !controller.collisions.below && !isDoubleJumping && !wallSliding)
@@ -98,6 +114,7 @@ public class Player : MonoBehaviour
 
     public void OnJumpInputUp()
     {
+		
         if (velocity.y > minJumpVelocity)
         {
             velocity.y = minJumpVelocity;
@@ -143,8 +160,15 @@ public class Player : MonoBehaviour
         float targetVelocityX = directionalInput.x * moveSpeed;
         velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below ? accelerationTimeGrounded : accelerationTimeAirborne));
         velocity.y += gravity * Time.deltaTime;
+		anim.SetFloat ("verticalSpeed", velocity.y);
     }
 
+	private void Flip (){
+		facingRight = !facingRight;
+		Vector3 scale = transform.localScale;
+		scale.x *= -1;
+		transform.localScale = scale;
+	}
 	public void Die(){
 		TKSceneManager.ChangeScene ("Start Scene");
 	}
